@@ -27,6 +27,7 @@
   
   
   <dependencies>
+		<!-- spring -->
   		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
@@ -69,6 +70,7 @@
 			<version>${org.springframework.version}</version>
 		</dependency>
 		
+		<!-- hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
@@ -80,6 +82,8 @@
 			<version>${hibernate.version}</version>
 		</dependency>
 		
+		
+		<!-- other -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
