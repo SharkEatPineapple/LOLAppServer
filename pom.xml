@@ -28,7 +28,7 @@
   
   <dependencies>
 		<!-- spring -->
-  		<dependency>
+  		<!--  <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${org.springframework.version}</version>
@@ -68,7 +68,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
 			<version>${org.springframework.version}</version>
-		</dependency>
+		</dependency>-->
 		
 		<!-- hibernate -->
 		<dependency>

@@ -27,7 +27,8 @@
   
   
   <dependencies>
-  		<dependency>
+		<!-- spring -->
+  		<!--  <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${org.springframework.version}</version>
@@ -67,8 +68,9 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
 			<version>${org.springframework.version}</version>
-		</dependency>
+		</dependency>-->
 		
+		<!-- hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
@@ -80,6 +82,8 @@
 			<version>${hibernate.version}</version>
 		</dependency>
 		
+		
+		<!-- other -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
